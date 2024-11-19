@@ -1,0 +1,2 @@
+version=4
+  https://github.com/cowsql/cowsql/tags .*/v?(\d\S+)@ARCHIVE_EXT@
