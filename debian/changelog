@@ -1,5 +1,19 @@
-template-repository (1.0-1) unstable; urgency=medium
+cowsql (1.15.6-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release (closes: #1067369).
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Free Ekanayaka <freee@debian.org>  Fri, 29 Mar 2024 10:35:43 +0000
+
+cowsql (1.15.4-1) unstable; urgency=medium
+
+  * New upstream release
+  * d/control: Bump build-dependency on libraft to version 0.20
+  * d/control: Set debhelper-compat to 11 to build on older releases
+
+ -- Free Ekanayaka <freee@debian.org>  Sun, 28 Dec 2023 22:10:32 +0000
+
+cowsql (1.15.3-1) unstable; urgency=medium
+
+  * Initial release (closes: #1052536).
+
+ -- Free Ekanayaka <freee@debian.org>  Fri, 13 Oct 2023 10:27:10 +0100
